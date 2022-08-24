@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 19 Jul 2022 18:01:55 at http://world5.commonsupport.com/html/greenture-new/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://world5.commonsupport.com/html/greenture-new/ -O1 "C:\xampp\htdocs\kioscoverde.bo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:07:57	Error: 	"Not Found" (404) at link world5.commonsupport.com/html/greenture-new/images/gradient/g30.png (from world5.commonsupport.com/html/greenture-new/css/revolution-slider.css)
+18:07:57	Error: 	"Not Found" (404) at link world5.commonsupport.com/html/greenture-new/images/gradient/g40.png (from world5.commonsupport.com/html/greenture-new/css/revolution-slider.css)
+18:07:57	Error: 	"Not Found" (404) at link world5.commonsupport.com/revolution.themepunch.com/wp-content/uploads/2014/05/wave21.png (from world5.commonsupport.com/html/greenture-new/css/revolution-slider.css)
+18:08:01	Warning: 	Moved Permanently for https://sliderrevolution.com/robots.txt
+18:08:01	Warning: 	Redirected link is identical because of 'URL Hack' option: https://sliderrevolution.com/robots.txt and https://www.sliderrevolution.com/robots.txt
+18:08:01	Warning: 	Warning moved treated for https://sliderrevolution.com/robots.txt (real one is https://www.sliderrevolution.com/robots.txt)
+18:08:01	Warning: 	Moved Permanently for https://sliderrevolution.com/?utm_source=themepunch.com&utm_medium=rdvisit/wp-content/uploads/2014/05/wave11.png
+18:08:01	Warning: 	File has moved from https://sliderrevolution.com/?utm_source=themepunch.com&utm_medium=rdvisit/wp-content/uploads/2014/05/wave11.png to https://www.sliderrevolution.com/
+18:08:25	Error: 	"Not Found" (404) at link world5.commonsupport.com/html/greenture-new/css/owl.video.play.png (from world5.commonsupport.com/html/greenture-new/css/owl.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 30 seconds : 227 links scanned, 220 files written (12398481 bytes overall) [9619556 bytes received at 24665 bytes/sec], 4006821 bytes transferred using HTTP compression in 61 files, ratio 28%, 2.1 requests per connection
+(4 errors, 5 warnings, 0 messages)
