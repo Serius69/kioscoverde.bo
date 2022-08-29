@@ -137,38 +137,46 @@
                         <!-- Post Form -->
                         <div class="comment-form wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 
-                            <div class="group-title text-uppercase"><h2>Para acceder a esta pagina debe ingresar sus datos</h2><div class="default-line-left"></div></div>
+                            <div class="group-title text-uppercase"><h2>Para acceder a esta pagina debe iniciar sesion</h2><div class="default-line-left"></div></div>
                             
-                            <!--Comment Form-->
-                            <form method="post" action="http://world5.commonsupport.com/html/greenture-new/blog.html">
+               <!-- Login Form - Main -->
+                <section class="donation-section">
+                    <div class="donation-form-outer">
+                        <form method="post" action="http://world5.commonsupport.com/html/greenture-new/contact.html">
+                            <!--Form Portlet-->
+                            <div class="form-portlet">
+                                <h4>Ingrese sus datos de cuenta</h4>
                                 <div class="row clearfix">
-                                    <div class=" col-lg-4 col-md-6 col-sm-12 col-xs-12 form-group">
-                                        <input type="text" name="username" placeholder="Nombre de la empresa">
-                                    </div>
-                                    <div class=" col-lg-4 col-md-12 col-sm-12 col-xs-12 form-group">
-                                        <input type="text" name="url" placeholder="Contrasenia">
+                                    
+                                    <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                                        <div class="field-label">Nombre | Correo electronico <span class="required">*</span></div>
+                                        <input type="text" name="name" value="" placeholder="Nombre" required>
                                     </div>
                                     
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                        <button class="theme-btn btn-style-two" type="submit" name="submit-form">Acceder</button>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                        <h3>
-                                            Si aún no cuenta con un Usuario y Contraseña, puede hacerlo en la pestaña REGISTRARSE o ingresando
-                                        </h3>
+                                    <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                                        <div class="field-label">Contraseña <span class="required">*</span></div>
+                                        <input type="text" name="name" value="" placeholder="Last Name" required>
                                     </div> 
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                                        <h4>
-                                            Venda el material reciclable (papel, cartón, plástico y similares) que pueda tener valor, entre aquí y registre su oferta. Los Operadores evaluaran las ofertas convenientes para poder comprarlas.
-                                        </h4>
-                                    </div>
-
-     
                                     
                                 </div>
-                            </form>
+                            </div>
+                            
+                            <br>                
+                                <!-- Google button -->
+                                <h5>Ingresa directamente con tu cuenta de Google</h5>
+                                    <div class="g-signin2" data-width="300" data-height="200" data-longtitle="true">
+                                        <button type="button" class="login-with-google-btn" >
+                                            Log in with Google
+                                        </button>
+                                    </div>                                
+                                    <!-- Login -->
+                                        <h4>Si no estas registrado dale click a <a href="signup.html"> Registrarse</a> </h4>                             
                                 
-                        </div><!--End Comment Form -->
+                            
+                            </div>    
+                <!-- Login Form - End -->
+                                
+                        </div>
                         
                     </section>
                 
